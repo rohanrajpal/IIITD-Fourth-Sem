@@ -1,0 +1,3 @@
+C:/Users/Rohan/Desktop/fourth sem/ADA/Lab3Clion/cmake-build-debug/CMakeFiles/Lab3Clion.dir
+C:/Users/Rohan/Desktop/fourth sem/ADA/Lab3Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Rohan/Desktop/fourth sem/ADA/Lab3Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
