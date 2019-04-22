@@ -2,7 +2,7 @@ function eigenCalculation(M,i)
     
     [V,D] = eig(M);
     disp(D);
-    
+    disp(V);
     out = imag(D(1)) ~= 0;
     disp(out);
     if(out == 0)

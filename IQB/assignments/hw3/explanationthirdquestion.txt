@@ -1,0 +1,57 @@
+I took the following genomic sequences
+S0 = 'ACTTGTCGGATGATCAGCGGTCCATGCACCTGACAACGGT'
+S1 = 'ACATGTTGCTTGACGACAGGTCCATGCGCCTGAGAACGGC'
+(a)
+I ran the code over 10000 iterations and the value
+tends towards a value close to the eigenvector of
+M with eigenvalue 1
+(b)
+Using a computer we get the following eigenvalues
+1.0000      
+0.4690    
+0.6357  
+0.7943
+Yes 1 is an eigen value and the vector I get in part a
+is close to the eigenvector with a RMSE (Root mean sqaure error)
+of 4.1956e-16
+I'm getting 
+0.1846
+0.3949
+0.2821
+0.1385
+vs the vector
+0.1846
+0.3949
+0.2821
+0.1385
+(c)
+Theorem. A Markov matrix always has λ1 = 1 as its largest eigenvalue and
+has all eigenvalues satisfying |λ| ≤ 1.The eigenvector corresponding to λ1
+has all nonnegative entries
+We can clearly see that among all eigenvalues, 1 is the largest eigenvalue
+The eigenvector corresponding to it is:
+0.1846
+0.3949
+0.2821
+0.1385
+
+Theorem. A Markov matrix, all of whose entries are positive (i.e., nonzero),
+always has 1 as a strictly dominant eigenvalue.There will be only one eigenvector (up to scalar multiplication) associated with λ = 1
+
+This is also true, as 
+taking the following markov matrix
+  	0.9000    0.0345    0.0273    0.0194
+    0.0300    0.9080    0.0727    0.0194
+    0.0200    0.0460    0.8727    0.0485
+    0.0500    0.0115    0.0273    0.9126
+This has the following eigenvalues
+	1.0000 + 0.0000i
+   	0.8847 + 0.0142i
+   	0.8847 - 0.0142i
+   	0.8239 + 0.0000i
+There is only one eigenvalue 1 and only one eigenvector corresponding to it
+	
+    0.2170
+    0.3081
+    0.2364
+    0.2385
